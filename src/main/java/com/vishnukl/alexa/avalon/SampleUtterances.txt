@@ -1,0 +1,14 @@
+AddRoleIntent add {RoleName}
+AddRoleIntent add role {RoleName}
+AddRoleIntent add {RoleName} to the game
+AddRoleIntent add role {RoleName} to the game
+
+RemoveRoleIntent remove {RoleName}
+RemoveRoleIntent remove role {RoleName}
+RemoveRoleIntent remove {RoleName} to the game
+RemoveRoleIntent remove role {RoleName} to the game
+
+StartNarrationIntent start the game
+StartNarrationIntent start narration
+StartNarrationIntent start narrating
+StartNarrationIntent start narrating the game
