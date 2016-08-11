@@ -6,6 +6,7 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import com.vishnukl.alexa.avalon.storage.AvalonData;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class RoleManager {
     private final DynamoDBMapper dynamoDBmapper;
@@ -49,5 +50,10 @@ public class RoleManager {
         game.setCustomerId(session.getUser().getUserId());
         game.setRoles(new ArrayList<>());
         return game;
+    }
+
+    public List<String> getRoles(Session session) {
+        AvalonData data = getData(session);
+        return data.getRoles();
     }
 }

@@ -1,8 +1,6 @@
 package com.vishnukl.alexa.avalon;
 
-import com.amazon.speech.slu.Intent;
 import com.amazon.speech.speechlet.*;
-import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
